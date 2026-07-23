@@ -8,6 +8,12 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
 """
 
 import os
+import sys
+
+sys.path.insert(
+    0,
+    os.path.join(os.path.dirname(os.path.dirname(__file__)), "vendor")
+)
 
 from django.core.asgi import get_asgi_application
 

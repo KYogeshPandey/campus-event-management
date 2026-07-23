@@ -164,3 +164,5 @@ ALLOWED_HOSTS = [
     "localhost",
     ".onrender.com",
 ]
+
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
